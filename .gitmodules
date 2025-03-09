@@ -2,7 +2,13 @@
 	path = susfs4ksu
 	url = https://gitlab.com/simonpunk/susfs4ksu.git
 	branch = kernel-4.9
+
 [submodule "KernelSU-Next"]
 	path = KernelSU-Next
-	url = https://github.com/bavalucket/KernelSU-Next
+	url = https://github.com/galacticai/KernelSU-Next
 	branch = next-susfs
+
+[submodule "AIK"]
+	path = AIK
+	url = https://github.com/Shubhamvis98/AIK
+	branch = magisk

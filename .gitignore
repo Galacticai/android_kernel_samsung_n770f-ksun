@@ -1,4 +1,61 @@
+
+
+# Build artifacts
+*.o
+*.o.cmd
+*.out
+*.exe
+*.a
+*.so
+*.d
+*.lib
+*.dll
+modules.builtin
+modules.order
+*/modules.builtin
+*/modules.order
+
+# Executables
+/bin/
+/build/
+/Debug/
+/Release/
+
+# Object files
+*.obj
+*.lo
+*.la
+
+# Dependency files
+*.d
+
+# CMake files
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Makefile
+Makefile.in
+makefile
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.bak
+
+# Temporary files
+*.log
+*.tmp
+
+# misc
+.DS_Store
+Thumbs.db
+
 buildtools/
 buildtootls/
 rkp_cfp/tmp/
-.vscode/
+.tmp*
+Python-*.*.tgz
+Python-*.*/
